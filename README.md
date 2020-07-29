@@ -32,8 +32,31 @@ The complexity has moved to the outside.
 
 ### Communication Styles
 1. Synchronomous
+REST API
 2. Asynchronous
+Messaging Middleware
+Queue
+Publish-Subscribe
+3. Client-Service Communication with API Gateway
+4. Service-Service Communication with Service Mesh
+
+
 
 ### Tradeoffs using CAP Theorem
+The CAP theorem puts a constraint on addressing only any two of Consistency, Availability and Partitioning.
 
 ### Handle Failures 
+1. Circuit Breaker
+2. Throttling
+3. Bulkhead
+4. Chaos Engineering
+
+## Deployment Options
+
+### 1 host per service
+
+### 1 host many services - Containers
+
+### Container Orchestration
+
+### Serverless Options
