@@ -38,7 +38,14 @@ Inner Architecture is simple with popular tech stacks available from the communi
 The complexity has moved to the outside. 
 
 ### Case Study
- An e-commerce application like amazon or eBay having a storefront that customers visit to select from a range of products and buy items of their choice.  
+ An e-commerce application like amazon or eBay having a storefront that customers visit to select from a range of products and buy items of their choice. 
+
+### User Story 1
+Customer registers by providing his/her email. The application sends a confirmation email with a confirmation link to verify the email address. The customer will visit this link to confirm. The system will activate the account. The customer can login with email and password.
+
+### User Story 2
+The products displayed in the online store are mantained in Inventory Microservice. Orders are managed by the Orders Microservice and Items placed in the shopping cart are managed by the Cart microservice.
+
 
 ### Communication Styles
 1. Synchronous
