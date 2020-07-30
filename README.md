@@ -3,6 +3,16 @@
 ## Course Contents
 ![Mind Map](https://github.com/pratikdas/MSA_Training_Jul_20/blob/master/_assets/images/Microservice-MindMap.png)
 
+## Key Takeaways
+By the end of this course, participants will be able to:
+
+1. Understand when to use and when not to use microservice architecture.
+2. Decompose an application into microservices using Domain Driven Design.
+3. Apply design patterns for building a microservice application.
+4. Under Microservoce deployment options using container, PAAS platforms and serverless technologies
+5. Identify and choose their area of interest for deep dive.
+6. Refactor a monolithic application into Microservices. 
+
 ## Motivations
 We traditionally built monolithic applications where we bundle all functionality of an application in a single deployment unit. When application size is small, this solution is preferable since it is easy to manage and deploy. Once application becomes big it becomes difficult to change. We are worried about the impact any change might make to other parts of the applications. Also for scaling, we need to scale the complete application instead of any single function which is frequently used.
 
