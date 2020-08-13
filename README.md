@@ -16,6 +16,8 @@ By the end of this course, participants will be able to:
 ## Motivations
 We traditionally built monolithic applications where we bundle all functionality of an application in a single deployment unit. When application size is small, this solution is preferable since it is easy to manage and deploy. Once the application becomes big it becomes difficult to change. We are worried about the impact any change might make to other parts of the applications. Also for scaling, we need to scale the complete application instead of any single function which is frequently used.
 
+For engineering practices and necessary organizational maturity read my article on [Microservice Architecture - Thinking Outside Technology](https://www.linkedin.com/pulse/microservice-architecture-thinking-outside-technology-pratik-das/?trackingId=coadjKGzdU%2FM7wgRi%2BU%2Bdg%3D%3D)
+
 
 ## What is Microservice
 A logical component with some of the below characteristics:
@@ -84,7 +86,7 @@ For example, if the ability to quickly iterate the data model and scale horizont
 Deploy in VM
 
 ### 1 host many services - Containers
-####Build Docker Images
+#### Build Docker Images
 Docker builds images automatically by reading the instructions from a Dockerfile -- a text file that contains all commands, in order, needed to build a given image. A Dockerfile adheres to a specific format and set of instructions which you can find at Dockerfile reference.
 
 A Docker image consists of read-only layers each of which represents a Dockerfile instruction. The layers are stacked and each one is a delta of the changes from the previous layer. Consider this Dockerfile:
