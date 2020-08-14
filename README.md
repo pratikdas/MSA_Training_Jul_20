@@ -137,7 +137,16 @@ Docker run (it for interactive)
 ```
 docker run -it -p8080:8080 userreg1:v1
 ```
-docker start, stop 
+docker start, stop
+
+Push image to docker hub:
+docker tag <imageID> <reponame>
+ex. docker tag pratikdas/users:v1	
+
+docker push pratikdas/users:v1
+
+From different machine:
+docker pull pratikdas/users:v1
 
 ### Container Orchestration
 
